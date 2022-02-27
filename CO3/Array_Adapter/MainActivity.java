@@ -15,8 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ListView listview=new ListView(this);
         String[] sports={"Soccer","Cricket","Hockey","Baseball","Rugby"};
-        ArrayAdapter<String> sportsAdapter=new ArrayAdapter<String>(MainActivity.this,
-                R.layout.activity_main,R.id.textView,sports);
+        ArrayAdapter<String> sportsAdapter=new ArrayAdapter<String>(MainActivity.this,R.layout.activity_main,R.id.textView,sports);
         setContentView(listview);
         listview.setAdapter(sportsAdapter);
 
