@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        togglebutton=(ToggleButton) findViewById(R.id.toggleButton);
+        togglebutton=(ToggleButton)findViewById(R.id.toggleButton);
         textview=(TextView)findViewById(R.id.textView);
     }
     public void onToggleClick(View view)
