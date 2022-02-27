@@ -13,13 +13,13 @@
         android:layout_height="wrap_content"
         android:textSize="40dp"
         android:layout_marginBottom="60dp"
-        android:text="First Page" />
+        android:text="Second Page" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        android:text="Go to Second Activity" />
+        android:text="Go to First Activity" />
 
 </LinearLayout>
